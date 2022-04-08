@@ -6,7 +6,7 @@ Project {
     readonly property path app_path: path
     property path shared_path: app_path + "/shared"
     property path lib_path: app_path + "/yx_lib"
-    qbsSearchPaths: lib_path + "/qbs"
+    qbsSearchPaths: shared_path + "/qbs"
     property bool is_sub_project: false
 
     Product {
